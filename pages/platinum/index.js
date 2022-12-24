@@ -1,17 +1,14 @@
 import Header from "../../components/header"
-import Card from "../../components/card/card"
+import UserCard from "../../components/card"
 
 const Platinum = () => {
-
-    
-
     return (
         <>
             <Header />
             <section>
                 <div className="container">
                     <div className="row">
-                        <Card />
+                        <UserCard />
                     </div>
                 </div>
             </section>

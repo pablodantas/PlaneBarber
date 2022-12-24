@@ -41,8 +41,6 @@ export default NextAuth({
             await newUser.save();
 
           }
-
-
           return user;
         } catch (e) {
           // eslint-disable-next-line no-console

@@ -1,6 +1,6 @@
-import SignIn from './signin';
+import SignIn from './singin';
 
-export default function Home() {
+export default function index() {
   return (
     <SignIn />
   )
